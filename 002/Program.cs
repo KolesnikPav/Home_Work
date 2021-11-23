@@ -1,7 +1,7 @@
 ﻿// По двум заданным числам проверять является ли первое квадратом второго
 
 Console.Write("Введите первое число: ");
-var  a = Console.ReadLine();
+var a = Console.ReadLine();
 Console.Write("Введите второе число: ");
 var b = Console.ReadLine();
 
