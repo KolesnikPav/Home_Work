@@ -1,11 +1,11 @@
 ﻿// По двум заданным числам проверять является ли первое квадратом второго
 
 Console.Write("Введите первое число: ");
-var a = Console.ReadLine();
+double a = Convert.ToDouble(Console.ReadLine());
 Console.Write("Введите второе число: ");
-var b = Console.ReadLine();
+double b = Convert.ToDouble(Console.ReadLine());
 
-if (Convert.ToDouble(a) == Convert.ToDouble(b) * Convert.ToDouble(b))
+if (a == b * b)
 {
     Console.WriteLine(a + " является квадратом " + b);
 }
