@@ -3,10 +3,12 @@
 Console.Write("Введите трехзначное число: ");
 string a = Console.ReadLine();
 
-if(int.Parse(a) / 10 >= 10)
+if(int.Parse(a) / 10 <= 9 || int.Parse(a) / 10 >= 100)
 {
-    if(int.Parse(a) / 10 <= 99)
-    {
-        Console.WriteLine(a[1]);
-        }
+    Console.WriteLine("Я сказал трёхзначное!!!");
 }
+else
+{
+    Console.WriteLine(a[1]);
+}
+
