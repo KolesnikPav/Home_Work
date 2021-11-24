@@ -1,6 +1,6 @@
 ﻿// Написать программу вычисления значения функции y = f(a)
 
-Console.Write("Введите чему будет равно 'a': ");
+Console.Write("Введите значение 'a': ");
 int a = int.Parse(Console.ReadLine());
 
 if(a >= 0)
