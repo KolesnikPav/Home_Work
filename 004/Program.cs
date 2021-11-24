@@ -10,7 +10,7 @@ string[] array =
     "Суббота",
     "Воскресенье"
 };
-Console.Write("Введите номер дня недели: ");
+Console.Write("Введите порядковый номер дня недели: ");
 int day = int.Parse(Console.ReadLine());
 
 if (day > 7 || day < 1)
