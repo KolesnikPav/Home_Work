@@ -2,11 +2,10 @@
 
 Console.Write("Введите значение 'N': ");
 int a = int.Parse(Console.ReadLine());
-int count = 1;
-Console.WriteLine(0);
+int count = - a;
+
 while(count <= a)
 {
-    Console.WriteLine(count - 2 * count);
     Console.WriteLine(count);
     count++;
 }
