@@ -9,9 +9,9 @@ if(int.Parse(a) <= 9 || int.Parse(a) >= 100)
 }
     else if(a[0] > a[1])
     {
-        Console.WriteLine("В числе " +  a + " наибольшая цифра: " + a[0]);
+        Console.WriteLine("В числе " + a + " наибольшая цифра: " + a[0]);
     }
     else
     {
-        Console.WriteLine("В числе " +  a + " наибольшая цифра: " + a[1]);
+        Console.WriteLine("В числе " + a + " наибольшая цифра: " + a[1]);
     }
