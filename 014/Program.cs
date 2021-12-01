@@ -5,7 +5,12 @@ double a = Convert.ToDouble(Console.ReadLine());
 Console.Write("Введите второе число: ");
 double b = Convert.ToDouble(Console.ReadLine());
 
-if (a % b == 0)
+if (a < b)
+{
+    Console.WriteLine("Некратно");
+}
+
+else if (a % b == 0)
 {
     Console.WriteLine(a + " кратно " + b);
 }
